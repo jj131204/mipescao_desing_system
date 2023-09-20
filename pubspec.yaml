@@ -12,9 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # To add assets to your application, add an assets section, like this:
-  assets:
-    - assets/
+
 
 dev_dependencies:
   flutter_test:
@@ -28,8 +26,8 @@ dev_dependencies:
 flutter:
 
   # To add assets to your package, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/
   #   - images/a_dot_ham.jpeg
   #
   # For details regarding assets in packages, see
