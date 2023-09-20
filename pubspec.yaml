@@ -12,6 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

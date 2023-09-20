@@ -1,0 +1,11 @@
+<svg id="Capa_18" data-name="Capa 18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="35" viewBox="0 0 50 35">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fceb03"/>
+      <stop offset="0.78" stop-color="#fbb040"/>
+      <stop offset="1" stop-color="#f79520"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectángulo_109" data-name="Rectángulo 109" width="50" height="35" rx="17.5" fill="url(#linear-gradient)"/>
+  <path id="Trazado_375" data-name="Trazado 375" d="M13.17,19.24H32.63l-8.5,8.5a1.76,1.76,0,0,0,0,2.48,1.73,1.73,0,0,0,2.45,0L38.06,18.74a1.74,1.74,0,0,0,0-2.46L26.6,4.78a1.74,1.74,0,0,0-2.46,2.46l8.49,8.52H13.17a1.74,1.74,0,1,0,0,3.48Z" fill="#fff"/>
+</svg>
