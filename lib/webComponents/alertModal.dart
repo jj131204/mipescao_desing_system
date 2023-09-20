@@ -52,10 +52,6 @@ class CustomModal extends StatefulWidget {
   final Function funcion2;
 
   const CustomModal({super.key, required this.imagen,  required this.title, required this.descripcion, required this.textoboton1, required this.funcion1, required this.textoboton2, required this.funcion2});
-
-  
-
-
   @override
   State<CustomModal> createState() => _CustomModalState();
 }
