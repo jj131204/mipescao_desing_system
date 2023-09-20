@@ -93,7 +93,7 @@ class _CustomModalState extends State<CustomModal> {
                 Expanded(
                   flex: 1, // Ocupa 33% del ancho del Row                  
                   child:
-                    Image.asset(rutaImagen)
+                    Image.asset('assets/infoAlert.png')
                     // Image.asset('assets/Recurso 1-8.png'),
                 ),
                 SizedBox(width: 10.0),
