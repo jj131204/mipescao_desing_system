@@ -85,7 +85,6 @@ class _CustomModalState extends State<CustomModal> {
             children: [
               Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
-<<<<<<< HEAD
                 children: [
                   Expanded(
                       flex: 1, // Ocupa 33% del ancho del Row
@@ -100,22 +99,6 @@ class _CustomModalState extends State<CustomModal> {
                           containerStyle.customBoxConstraints2(context),
                       padding: EdgeInsets.only(
                           top: 20, left: 0, right: 20, bottom: 10),
-=======
-              children: [
-
-                Expanded(
-                  flex: 1, // Ocupa 33% del ancho del Row                  
-                  child:
-                    Image.asset('assets/infoAlert.png')
-                    // Image.asset('assets/Recurso 1-8.png'),
-                ),
-                SizedBox(width: 10.0),
-                Expanded(
-                  flex: 2, // Ocupa el doble del ancho de la imagen (66%)
-                  child: Container(
-                      constraints: containerStyle.customBoxConstraints2(context),
-                      padding: EdgeInsets.only(top: 20, left: 0, right: 20, bottom: 10),
->>>>>>> b2a2fe54e7cf20886b8f7e0e6d049e63bbea1aea
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -123,7 +106,7 @@ class _CustomModalState extends State<CustomModal> {
                           Text(
                             widget.title,
                             style: TextStyle(
-                                fontFamily: "nunitoBold",
+                                fontFamily: "quicksand",
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xff707070)),
@@ -132,7 +115,7 @@ class _CustomModalState extends State<CustomModal> {
                           SizedBox(height: 25.0),
                           Text(widget.descripcion,
                               style: TextStyle(
-                                  fontFamily: "nunitoBold",
+                                  fontFamily: "quicksand",
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.normal,
                                   color: Color(0xff707070)),
@@ -168,7 +151,7 @@ class _CustomModalState extends State<CustomModal> {
                         },
                         child: Text(widget.textoboton1,
                             style: TextStyle(
-                                fontFamily: "nunitoBold",
+                                fontFamily: "quicksand",
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xffffffff))),
@@ -194,7 +177,7 @@ class _CustomModalState extends State<CustomModal> {
                         },
                         child: Text(widget.textoboton2,
                             style: TextStyle(
-                                fontFamily: "nunitoBold",
+                                fontFamily: "quicksand",
                                 fontSize: 24.0,
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xffffffff))),
