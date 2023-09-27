@@ -106,7 +106,7 @@ class _CustomModalState extends State<CustomModal> {
                           Text(
                             widget.title,
                             style: TextStyle(
-                                fontFamily: "quicksand",
+                                fontFamily: "NunitoBold",
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xff707070)),
@@ -115,7 +115,7 @@ class _CustomModalState extends State<CustomModal> {
                           SizedBox(height: 25.0),
                           Text(widget.descripcion,
                               style: TextStyle(
-                                  fontFamily: "quicksand",
+                                  fontFamily: "NunitoBold",
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.normal,
                                   color: Color(0xff707070)),
@@ -151,7 +151,7 @@ class _CustomModalState extends State<CustomModal> {
                         },
                         child: Text(widget.textoboton1,
                             style: TextStyle(
-                                fontFamily: "quicksand",
+                                fontFamily: "NunitoBold",
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xffffffff))),
@@ -177,7 +177,7 @@ class _CustomModalState extends State<CustomModal> {
                         },
                         child: Text(widget.textoboton2,
                             style: TextStyle(
-                                fontFamily: "quicksand",
+                                fontFamily: "NunitoBold",
                                 fontSize: 24.0,
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xffffffff))),
