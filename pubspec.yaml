@@ -22,7 +22,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  fonts:
+    - family: NunitoBold
+      fonts:
+        - asset: assets/fonts/nunito/Nunito-Bold.ttf
+    - family: NunitoRegular
+      fonts:
+        - asset: assets/fonts/nunito/Nunito-Regular.ttf
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
