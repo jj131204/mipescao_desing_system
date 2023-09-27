@@ -115,7 +115,7 @@ class _CustomModalState extends State<CustomModal> {
                           SizedBox(height: 25.0),
                           Text(widget.descripcion,
                               style: TextStyle(
-                                  fontFamily: "NunitoBold",
+                                  fontFamily: "NunitoRegular",
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.normal,
                                   color: Color(0xff707070)),
