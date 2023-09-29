@@ -129,7 +129,7 @@ class _CustomModalState extends State<CustomModal> {
                       visible: boton1,
                       child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Color(0xffC8D3E3),
+                        backgroundColor: Color(0xff00B0DA),
                         padding: EdgeInsets.only(top: 12, left: 18, right: 18, bottom:12), 
                         shape: RoundedRectangleBorder(
                           borderRadius:BorderRadius.circular(20),
