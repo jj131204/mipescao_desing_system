@@ -152,7 +152,7 @@ class _CustomModalState extends State<CustomModal> {
                         child: Text(widget.textoboton1,
                             style: TextStyle(
                                 fontFamily: "NunitoBold",
-                                fontSize: 18.0,
+                                fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xffffffff))),
                       ),
@@ -178,7 +178,7 @@ class _CustomModalState extends State<CustomModal> {
                         child: Text(widget.textoboton2,
                             style: TextStyle(
                                 fontFamily: "NunitoBold",
-                                fontSize: 18.0,
+                                fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xffffffff))),
                       ),
