@@ -14,7 +14,7 @@ class containerStyle {
     double maxWidth = MediaQuery.of(context).size.width * 0.9;
 
     if (obtenerAnchoPantalla() >= 480) {
-      return BoxConstraints(minWidth: 100, maxWidth: 480);
+      return BoxConstraints(minWidth: 100, maxWidth: 450);
     } else {
       return BoxConstraints(minWidth: 100, maxWidth: maxWidth);
     }
