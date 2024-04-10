@@ -147,7 +147,7 @@ class _CustomModalState extends State<CustomModal> {
                               borderRadius: BorderRadius.circular(20),
                             )),
                         onPressed: () {
-                          widget.funcion1(context);
+                          widget.funcion1();
                         },
                         child: Text(widget.textoboton1,
                             style: TextStyle(
