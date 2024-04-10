@@ -147,7 +147,7 @@ class _CustomModalState extends State<CustomModal> {
                               borderRadius: BorderRadius.circular(20),
                             )),
                         onPressed: () {
-                          widget.funcion1();
+                          widget.funcion1(context);
                         },
                         child: Text(widget.textoboton1,
                             style: TextStyle(
@@ -173,7 +173,7 @@ class _CustomModalState extends State<CustomModal> {
                         onPressed: () {
                           print(widget.funcion2);
                           // alertmodalclose(context);s
-                          widget.funcion2();
+                          widget.funcion2(context);
                         },
                         child: Text(widget.textoboton2,
                             style: TextStyle(
@@ -190,13 +190,11 @@ class _CustomModalState extends State<CustomModal> {
           )),
     );
   }
-
-  void noFunction() {}
-
-  alertmodalclose() {
-    print("context");
-    Navigator.of(context).pop(); // Cerrar la modal al presionar el botón
-  }
-
 }
 
+void noFunction(context) {}
+
+alertmodalclose(context) {
+  print("context");
+  Navigator.of(context).pop(); // Cerrar la modal al presionar el botón
+}
