@@ -14,7 +14,7 @@ class containerStyle {
     double maxWidth = MediaQuery.of(context).size.width * 0.9;
 
     if (obtenerAnchoPantalla() >= 480) {
-      return BoxConstraints(minWidth: 100, maxWidth: 450);
+      return BoxConstraints(minWidth: 100, maxWidth: 480);
     } else {
       return BoxConstraints(minWidth: 100, maxWidth: maxWidth);
     }
@@ -173,7 +173,7 @@ class _CustomModalState extends State<CustomModal> {
                         onPressed: () {
                           print(widget.funcion2);
                           // alertmodalclose(context);s
-                          widget.funcion2(context);
+                          widget.funcion2();
                         },
                         child: Text(widget.textoboton2,
                             style: TextStyle(
@@ -190,11 +190,13 @@ class _CustomModalState extends State<CustomModal> {
           )),
     );
   }
+
+  void noFunction() {}
+
+  alertmodalclose() {
+    print("context");
+    Navigator.of(context).pop(); // Cerrar la modal al presionar el botón
+  }
+
 }
 
-void noFunction(context) {}
-
-alertmodalclose(context) {
-  print("context");
-  Navigator.of(context).pop(); // Cerrar la modal al presionar el botón
-}
