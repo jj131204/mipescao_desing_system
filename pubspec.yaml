@@ -1,7 +1,7 @@
 name: mipescao_desing_system
-description: A new Flutter package project.
-version: 0.0.1
-homepage: miPescao.com
+description: Ventanas modales.
+version: 0.0.2
+homepage: http://packageflutter.redazul.co
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter
+    sdk: flutter 
 
 dev_dependencies:
   flutter_test:
