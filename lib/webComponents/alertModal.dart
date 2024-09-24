@@ -134,7 +134,7 @@ class _CustomModalState extends State<CustomModal> {
                 ),
                 Container(
                   padding:
-                      EdgeInsets.only(top: 0, left: 0, right: 20, bottom: 20),
+                      EdgeInsets.only(top: 0, left: 02, right: 20, bottom: 20),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
