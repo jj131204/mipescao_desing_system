@@ -142,58 +142,62 @@ class _CustomModalState extends State<CustomModal> {
       
                       Visibility(
                         visible: boton1,
-                        child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                              backgroundColor: Color(0xff00B0DA),
-                              padding: EdgeInsets.only(
-                                  top: 6, left: 6, right: 6, bottom: 6),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(20),
-                              )
-                            ),
-                            onPressed: () {
-                              widget.funcion1(context);
-                            },
-                            child: Text(widget.textoboton1,
-                              style: TextStyle(
-                                fontFamily: "NunitoBold",
-                                fontSize: 20.0,
-                                fontWeight: FontWeight.bold,
-                                color: Color(0xffffffff)
+                        child: IntrinsicWidth(
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                backgroundColor: Color(0xff00B0DA),
+                                padding: EdgeInsets.only(
+                                    top: 6, left: 6, right: 6, bottom: 6),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20),
+                                )
                               ),
-                              overflow: TextOverflow.ellipsis,
+                              onPressed: () {
+                                widget.funcion1(context);
+                              },
+                              child: Text(widget.textoboton1,
+                                style: TextStyle(
+                                  fontFamily: "NunitoBold",
+                                  fontSize: 20.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color(0xffffffff)
+                                ),
+                                overflow: TextOverflow.ellipsis,
+                              ),
                             ),
-                          ),
+                        ),
                         ),
                       
       
                       SizedBox(width: 20.0),
       
                       Expanded(
-                        child: Visibility(
-                          visible: boton2,
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                backgroundColor: Color(0xff62C2FE),
-                                padding: EdgeInsets.only(
-                                    top: 6, left: 6, right: 6, bottom: 6),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20),
-                                )),
-                            onPressed: () {
-                              print(widget.funcion2);
-                              // alertmodalclose(context);s
-                              widget.funcion2(context);
-                            },
-                            child: Text(widget.textoboton2,
-                              style: TextStyle(
-                                fontFamily: "NunitoBold",
-                                fontSize: 20.0,
-                                fontWeight: FontWeight.bold,
-                                color: Color(0xffffffff)),
-                                overflow: TextOverflow.ellipsis,
-                              ),
-      
+                        child: IntrinsicWidth(
+                          child: Visibility(
+                            visible: boton2,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  backgroundColor: Color(0xff62C2FE),
+                                  padding: EdgeInsets.only(
+                                      top: 6, left: 6, right: 6, bottom: 6),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(20),
+                                  )),
+                              onPressed: () {
+                                print(widget.funcion2);
+                                // alertmodalclose(context);s
+                                widget.funcion2(context);
+                              },
+                              child: Text(widget.textoboton2,
+                                style: TextStyle(
+                                  fontFamily: "NunitoBold",
+                                  fontSize: 20.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color(0xffffffff)),
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                
+                            ),
                           ),
                         ),
                       ),
